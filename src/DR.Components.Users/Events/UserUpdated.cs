@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DR.Components.Users.Events
 {
-    public interface UserCreated : IEvent
+    public interface UserUpdated : IEvent
     {
         Guid Id { get; }
         string IdentitySub { get; }

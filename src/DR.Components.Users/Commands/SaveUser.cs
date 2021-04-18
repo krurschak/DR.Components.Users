@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DR.Components.Users.Events
+namespace DR.Components.Users.Commands
 {
-    public interface UserCreated : IEvent
+    public interface SaveUser : ICommand
     {
         Guid Id { get; }
         string IdentitySub { get; }
